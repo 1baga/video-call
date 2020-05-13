@@ -1,0 +1,33 @@
+{
+    "name": "basicsoup",
+    "version": "1.0.0",
+    "main": "server.js",
+    "scripts": {
+        "build": "npx rollup -c",
+        "build-client-dev": "npx rollup -c -w",
+        "start": "npx rollup -c && node server.js",
+        "browserify": "browserify client.js -p esmify --standalone Client -o app-bundle.js; npx nodemon --exec 'node server.js'"
+    },
+    "author": "Umar",
+    "license": "MIT",
+    "dependencies": {
+        "deep-equal": "^2.0.3",
+        "express": "^4.17.1",
+        "mediasoup": "^3.5.8",
+        "mediasoup-client": "^3.6.5",
+        "rollup-plugin-node-globals": "^1.4.0",
+        "socket.io": "^2.3.0",
+        "socket.io-client": "^2.3.0"
+    },
+    "devDependencies": {
+        "browser-resolve": "^1.11.3",
+        "esmify": "^2.1.1",
+        "requirejs": "^2.3.6",
+        "rollup": "^2.7.2",
+        "rollup-plugin-commonjs": "^10.1.0",
+        "rollup-plugin-json": "^4.0.0",
+        "rollup-plugin-legacy": "^1.0.0",
+        "rollup-plugin-node-builtins": "^2.1.2",
+        "rollup-plugin-node-resolve": "^5.2.0"
+    }
+}

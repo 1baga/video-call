@@ -1,0 +1,32 @@
+Arguments: 
+  /home/umar/.nvm/versions/node/v14.0.0/bin/node /usr/share/yarn/bin/yarn.js add express mediasoup mediasoup-client socket.io
+
+PATH: 
+  /home/umar/miniconda2/bin:/home/umar/miniconda2/condabin:/home/umar/.nvm/versions/node/v14.0.0/bin:/home/umar/.local/bin:/home/umar/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/home/umar/go/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  14.0.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: EIO: i/o error, copyfile '/home/umar/.cache/yarn/v6/npm-mediasoup-3.5.8-5baa2468d666e12af5deb85294df0537d0de52c1-integrity/node_modules/mediasoup/worker/deps/libsrtp/srtp/fuzzer/corpus/7a3212a3cc93b425e6c60d3024e319206b65bce4' -> '/home/umar/Desktop/Projects/mediasoup/basicSoup/node_modules/mediasoup/worker/deps/libsrtp/srtp/fuzzer/corpus/7a3212a3cc93b425e6c60d3024e319206b65bce4'
+
+npm manifest: 
+  {
+    "name": "basicSoup",
+    "version": "1.0.0",
+    "main": "server.js",
+    "author": "Umar",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
