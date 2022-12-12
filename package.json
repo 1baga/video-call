@@ -12,7 +12,7 @@
     "license": "MIT",
     "dependencies": {
         "deep-equal": "^2.0.3",
-        "express": "^4.17.1",
+        "express": "^4.17.3",
         "mediasoup": "^3.5.8",
         "mediasoup-client": "^3.6.5",
         "rollup-plugin-node-globals": "^1.4.0",
